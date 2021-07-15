@@ -7,14 +7,14 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.10)-1"
     },
-    "CreationDate":  "2021-07-15T20:54:41+02:00"
+    "CreationDate":  "2021-07-15T21:59:59+02:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "HighSpeed",
-      "GUID": "48696768-5370-4656-9564-2e6b69636164",
+      "Name": "PCB",
+      "GUID": "5043422e-6b69-4636-9164-5f7063625858",
       "Revision": "rev?"
     },
     "Size":
@@ -39,7 +39,7 @@
       "PadToPad":  0.152,
       "PadToTrack":  0.152,
       "TrackToTrack":  0.089,
-      "MinLineWidth":  0.254,
+      "MinLineWidth":  0.152,
       "TrackToRegion":  0.152,
       "RegionToRegion":  0.152
     }
@@ -47,47 +47,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "HighSpeed-F_Cu.gbr",
+      "Path":  "PCB-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "HighSpeed-In1_Cu.gbr",
+      "Path":  "PCB-In1_Cu.gbr",
       "FileFunction":  "Copper,L2,Inr",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "HighSpeed-In2_Cu.gbr",
+      "Path":  "PCB-In2_Cu.gbr",
       "FileFunction":  "Copper,L3,Inr",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "HighSpeed-B_Cu.gbr",
+      "Path":  "PCB-B_Cu.gbr",
       "FileFunction":  "Copper,L4,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "HighSpeed-F_SilkS.gbr",
+      "Path":  "PCB-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "HighSpeed-B_SilkS.gbr",
+      "Path":  "PCB-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "HighSpeed-F_Mask.gbr",
+      "Path":  "PCB-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "HighSpeed-B_Mask.gbr",
+      "Path":  "PCB-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "HighSpeed-Edge_Cuts.gbr",
+      "Path":  "PCB-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
