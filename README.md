@@ -8,3 +8,6 @@ A FPGA working in serial with HDMI, for some real live video modifications. I'm 
 - 256Mb DRAM memory
 - Possibility to power device only from HDMI or from external input
 
+## PCB screenshots
+|![](/Images/top.png)|![](/Images/bottom.png)|
+|---|---|
