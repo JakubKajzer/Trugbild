@@ -26,7 +26,7 @@ It is because Trugbild is a german word meaning _illusion_. So I think that is a
 - [ ] Make some video modification while transmitting
 - [ ] Try to add some kind of neuron network to face recognition
 - [ ] Try to cover detected faces with some picture or someone face :)
-## Comments to steps
+## Comments
 ### Make PCB
 This point took me many hours of designing because this is my first design with FPGA, so I had pretty much to learn. I'm still not sure if everything was routed least good, but I will find it out soon.
 ### Order PCB fabrication
