@@ -11,7 +11,7 @@ A FPGA working in serial with HDMI, for some real live video modifications. I'm 
 ## PCB screenshots
 |![](/Images/top.png)|![](/Images/bottom.png)|
 |---|---|
-## Why Trugbild
+## Why "Trugbild"
 It is because Trugbild is a german word meaning _illusion_. So I think that is a good name for device which can modify what you see :)
 
 ## Develop steps
