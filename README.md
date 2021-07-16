@@ -16,6 +16,7 @@ It is because Trugbild is a german word meaning _illusion_. So I think that is a
 
 ## Develop steps
 - [x] Make PCB
+
 - [x] Order PCB fabrication
 - [ ] Order elements
 - [ ] Solder everything
@@ -25,3 +26,9 @@ It is because Trugbild is a german word meaning _illusion_. So I think that is a
 - [ ] Make some video modification while transmitting
 - [ ] Try to add some kind of neuron network to face recognition
 - [ ] Try to cover detected faces with some picture or someone face :)
+## Comments to steps
+### Make PCB
+This point took me many hours of designing because this is my first design with FPGA, so I had pretty much to learn. I'm still not sure if everything was routed least good, but I will find it out soon.
+### Order PCB fabrication
+For this, I used JLCPCB. They have 3.5mils clearance and track width, 0.2mm holes minimum, and four layers just for 8$. That's incredible!
+But after uploading gerber files, it comes that they don't have 3.5mils clearance, but 0.09mm (3.543mils), so I must re-route some nets on PCB :( The 5 PCBs cost me total of $15.89 with delivery included.
