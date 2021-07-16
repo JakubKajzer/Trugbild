@@ -17,6 +17,7 @@ It is because Trugbild is a german word meaning _illusion_. So I think that is a
 ## Develop steps
 - [x] Make PCB
 - [x] Order PCB fabrication
+- [ ] Order elements
 - [ ] Solder everything
 - [ ] First run
 - [ ] Try to run device only with power from HDMI (max. 50mA@5V)
