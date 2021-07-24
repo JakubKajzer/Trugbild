@@ -4,12 +4,12 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "Trugbild"
+Date "2021-07-15"
+Rev "1.0"
+Comp "Jakub Kajzer"
+Comment1 "jakubkajzer@gmail.com"
+Comment2 "You can contact me by email:"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -914,8 +914,6 @@ F 3 "" H 6500 1100 50  0001 C CNN
 	1    6500 1100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6050 1100 6500 1100
 $Comp
 L Device:C C24
 U 1 1 60FA47F9
@@ -1017,8 +1015,6 @@ Wire Wire Line
 	8650 1200 8550 1200
 Wire Wire Line
 	8550 1200 8550 1100
-Wire Wire Line
-	9250 1100 9700 1100
 $Comp
 L Device:C C28
 U 1 1 60FE3BBE
@@ -2969,4 +2965,104 @@ Wire Wire Line
 	6150 9950 6750 9950
 Wire Wire Line
 	6150 10500 6750 10500
+$Comp
+L Connector:TestPoint TP1
+U 1 1 61017825
+P 1300 4450
+F 0 "TP1" H 1358 4522 50  0000 L CNN
+F 1 "TestPoint" H 1358 4477 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1500 4450 50  0001 C CNN
+F 3 "~" H 1500 4450 50  0001 C CNN
+	1    1300 4450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9250 1100 9700 1100
+Wire Wire Line
+	6050 1100 6500 1100
+$Comp
+L Connector:TestPoint TP2
+U 1 1 6107D254
+P 1550 4450
+F 0 "TP2" H 1608 4522 50  0000 L CNN
+F 1 "TestPoint" H 1608 4477 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1750 4450 50  0001 C CNN
+F 3 "~" H 1750 4450 50  0001 C CNN
+	1    1550 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 6107D5E6
+P 1800 4450
+F 0 "TP3" H 1858 4522 50  0000 L CNN
+F 1 "TestPoint" H 1858 4477 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2000 4450 50  0001 C CNN
+F 3 "~" H 2000 4450 50  0001 C CNN
+	1    1800 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 6107D966
+P 2050 4450
+F 0 "TP4" H 2108 4522 50  0000 L CNN
+F 1 "TestPoint" H 2108 4477 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2250 4450 50  0001 C CNN
+F 3 "~" H 2250 4450 50  0001 C CNN
+	1    2050 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 6107DD7A
+P 2050 4350
+F 0 "#PWR025" H 2050 4100 50  0001 C CNN
+F 1 "GND" H 2055 4177 50  0000 C CNN
+F 2 "" H 2050 4350 50  0001 C CNN
+F 3 "" H 2050 4350 50  0001 C CNN
+	1    2050 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR022
+U 1 1 6107E8C3
+P 1300 4350
+F 0 "#PWR022" H 1300 4200 50  0001 C CNN
+F 1 "+5V" H 1315 4523 50  0000 C CNN
+F 2 "" H 1300 4350 50  0001 C CNN
+F 3 "" H 1300 4350 50  0001 C CNN
+	1    1300 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR023
+U 1 1 61080050
+P 1550 4350
+F 0 "#PWR023" H 1550 4200 50  0001 C CNN
+F 1 "+3V3" H 1565 4523 50  0000 C CNN
+F 2 "" H 1550 4350 50  0001 C CNN
+F 3 "" H 1550 4350 50  0001 C CNN
+	1    1550 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V2 #PWR024
+U 1 1 61080B6C
+P 1800 4350
+F 0 "#PWR024" H 1800 4200 50  0001 C CNN
+F 1 "+1V2" H 1815 4523 50  0000 C CNN
+F 2 "" H 1800 4350 50  0001 C CNN
+F 3 "" H 1800 4350 50  0001 C CNN
+	1    1800 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 4450 1300 4350
+Wire Wire Line
+	1550 4450 1550 4350
+Wire Wire Line
+	1800 4350 1800 4450
+Wire Wire Line
+	2050 4350 2050 4450
 $EndSCHEMATC
